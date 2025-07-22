@@ -59,7 +59,7 @@
       </div>
       <div class="class18">
         <div class="class40">
-          <button class="class21">Place your order</button>
+          <button onclick="nextPage()" class="class21">Place your order</button>
           <p class="class22">
             By placing your order, you agree to Musicart privacy notice and
             conditions of use.
@@ -86,7 +86,7 @@
       <div class="class39"></div>
       <div class="class31">
         <div class="class33">
-          <button class="class32">Place your order</button>
+          <button onclick="nextPage()" class="class32">Place your order</button>
           <div class="textDiv">
             <p class="class34">Order Total : ₹3545.00</p>
             <p class="class35">
@@ -164,12 +164,15 @@
       <p class="class61">₹3545.00</p>
     </div>
     <div class="class63">
-      <button class="class64">Place your order</button>
+      <button onclick="nextPage()" class="class64">Place your order</button>
     </div>
   </div>
   <script>
     function backPage() {
       window.location.href = "http://127.0.0.1:5502/Musicart/home%20page/index.html"
+    }
+    function nextPage() {
+      window.location.href = "http://127.0.0.1:5502/AddToCart/index.html"
     }
   </script>
 </body>
